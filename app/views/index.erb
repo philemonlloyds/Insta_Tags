@@ -45,13 +45,14 @@
 							</ul>
 						</li>
 					</ul>
-					<form class="navbar-form navbar-left" role="search">
+					<form id="submitform" class="navbar-form navbar-left" role="search">
 						<div class="form-group">
 							<input type="text" name="queryinput" class="form-control" />
 						</div>
-						<button type="button" id="submitbutton" class="btn btn-default">
+						<button type="submit" class="btn btn-default">
 							Submit
 						</button>
+						<button onclick="clearInterval(refreshIntervalId)" class="btn btn-default">Stop</button>
 					</form>
 					<ul class="nav navbar-nav navbar-right">
 						<li>
@@ -103,4 +104,4 @@
 <script type="text/javascript">
 	var access_token = "<%=session[:access_token]%>";
 </script>
-<%=session[:access_token]%>
+<%#=session[:access_token]%>
