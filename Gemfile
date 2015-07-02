@@ -8,6 +8,7 @@ gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'sinatra-activerecord'
 
+gem 'instagram', '~> 1.1.5'
 gem 'puma'
 gem 'tux'
 
