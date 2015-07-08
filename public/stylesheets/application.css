@@ -43,6 +43,7 @@ min-width: 1024px; */
   /* Set up proportionate scaling */
   width: 100%;
   height: auto;
+  z-index: -1;
 
   /* Set up positioning */
   position: fixed;
