@@ -1,0 +1,51 @@
+/** {
+  border-color: white;
+  border-style: dashed;
+  border-width: 1px;
+}*/
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+html,
+body {
+  height: 100%;
+  background: url('../images/bg_dark.png');
+  background-size: 40px 40px;
+  background-repeat: repeat;
+}
+body {
+  color: #fff;
+  /*text-align: center;*/
+  /*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #FFCE54;
+  border-color: #F6bb42;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #F6bb42;
+  border-color: #FFCE54;
+}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}

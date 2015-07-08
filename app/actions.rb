@@ -13,7 +13,7 @@ Instagram.configure do |config|
 end
 
 get "/" do
-  '<a href="/oauth/connect">Connect with Instagram</a>'
+  erb :homepage
 end
 
 get "/oauth/connect" do

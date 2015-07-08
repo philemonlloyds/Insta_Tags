@@ -31,11 +31,9 @@ function rotateImage(images,stop){
           {
             images.push(index.data[i].images.standard_resolution.url);
           }
-
-          alert(images.length);
           var refreshIntervalId = setInterval(function () {
           rotateImage(images,refreshIntervalId)
-            }, 1000);
+        }, 2000);
         },
       });
   }
