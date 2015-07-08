@@ -50,3 +50,7 @@ min-width: 1024px; */
   top: 0;
   left: 0;
 }
+
+.search{
+    z-index: 1;
+}
